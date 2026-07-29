@@ -1,4 +1,4 @@
-sdk-version: 0.0.0
+sdk-version: 3.5.2
 name: test-daml-component
 source: daml
 version: 0.0.1
@@ -9,3 +9,6 @@ dependencies:
 
 exposed-modules:
   - Hello
+
+build-options:
+  - --target=2.1
